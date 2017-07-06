@@ -1,6 +1,7 @@
 ---
 permalink: /karuta_fr/
 title: "Rapport"
+layout:archive
 ---
 
 Karuta
