@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "fr"
+locale                   : "en"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "ePortfolium"
+name                     : "Your Name"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -239,8 +239,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: home
-      author_profile: false
+      layout: single
+      author_profile: true
       read_time: true
       comments: # true
       share: true
