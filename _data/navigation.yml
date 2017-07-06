@@ -8,7 +8,7 @@ main:
     url: /dashboard_fr
 
     
-menus_fr:
+menusfr:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
