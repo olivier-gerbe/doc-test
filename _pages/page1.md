@@ -1,3 +1,8 @@
+---
+title: Ma page 1
+permalink: /page1/
+---
+
 ## Notable Features
 
 - "Gemified" for easier install/upgrading
