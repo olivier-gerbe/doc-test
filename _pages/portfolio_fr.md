@@ -2,7 +2,7 @@
 title: Portfolio
 permalink: /portfolio_fr/
 sidebar:
-  nav: "menus"
+  nav: "menus_fr"
 ---
 
 # Portfolio

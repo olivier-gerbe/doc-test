@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "Portfolio"
-    url: /protfilio_fr/
+    url: /portfolio_fr/
   - title: "Rapport"
     url: /report_fr
   - title: "Tableau de bord"
     url: /dashboard_fr
 
     
-menus:
+menus_fr:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
