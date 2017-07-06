@@ -5,7 +5,7 @@ main:
   - title: "Rapport"
     url: /report_fr/
 
-menu_fr:
+menufr:
     - title: Getting Started
     children:
       - title: "Quick-Start Guide"
