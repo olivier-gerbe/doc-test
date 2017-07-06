@@ -1,6 +1,8 @@
 ---
 title: Rapport
 permalink: /report_fr/
+sidebar:
+	nav:menusfr
 ---
 
 # Rapport
