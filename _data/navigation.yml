@@ -1,11 +1,11 @@
 # main links
 main:
  - title: "Portfolio"
-    url: /portfolio_fr
+    url: /portfolio_fr/
   - title: "Tableau de bord"
-    url: /dashboard_fr
+    url: /dashboard_fr/
   - title: "Rapport"
-    url: /report_fr
+    url: /report_fr/
   - title: "english"
-    url: /portfolio_fr
+    url: /home_en
  
