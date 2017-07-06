@@ -1,3 +1,8 @@
+---
+permalink: /karuta_fr/
+title: "Rapport"
+---
+
 Karuta
 ======
 
