@@ -1,6 +1,8 @@
 ---
 title: Portfolio
 permalink: /portfolio_fr/
+sidebar:
+  nav: "menus"
 ---
 
 # Portfolio
