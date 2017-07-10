@@ -10,21 +10,11 @@ report_fr:
     children:
       - title: "for-each-portfolio"
         url: /for-each-portfolio_fr/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
 
 dashboard_fr:
   - title: Commandes
     children:
       - title: "for-each-line"
         url: /for-each-line_fr/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "for-each-portfolio"
+        url: /for-each-portfolio_fr/
