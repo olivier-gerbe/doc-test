@@ -18,7 +18,7 @@ main_en:
 report_fr:
   - title: Commandes
     children:
-      - title: "for-each-portfolio"
+      - title: "ForEachPortfolio"
         url: /report_fr#for-each-portfolio
   - title: Langues
     children:
@@ -28,7 +28,7 @@ report_fr:
 report_en:
   - title: Functions
     children:
-      - title: "for-each-portfolio"
+      - title: "ForEachPortfolio"
         url: /for-each-portfolio_en/
   - title: Languages
     children:
