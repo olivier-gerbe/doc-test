@@ -15,6 +15,18 @@ main_en:
   - title: "Report"
     url: /report_en/
 
+home_fr:
+  - title: Langues
+    children:
+      - title: "English"
+        url: /home_en/
+
+home_en:
+  - title: Languages
+    children:
+      - title: "Français"
+        url: /home/
+
 # ====== REPORT_FR ================
 report_fr:
   - title: Commandes
