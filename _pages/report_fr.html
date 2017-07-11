@@ -21,7 +21,7 @@ Les commandes disponibles sont :
 	<h4>Champs</h4>
 	<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouveau portfolio</p>
 	<p>
-		<var>Sélection portfolios:</var> Test Jquery permmetant de sélectionner des portfolios parmi ceux visibles par l'usager.
+		<var>Sélection portfolios:</var> Test Jquery permetant de sélectionner des portfolios parmi ceux visibles par l'usager.
 		<br/>Exemples:
 		<ul>
 			<li><code>code*='2015_work'</code> sélection des portfolios dont le code contient <code>2015_work</code></li>
@@ -36,11 +36,46 @@ Les commandes disponibles sont :
 	<h4>Champs</h4>
 	<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouvelle personne</p>
 	<p>
-		<var>Sélection personnes:</var> Test Jquery permmetant de sélectionner les personnes du systèeme.
+		<var>Sélection personnes:</var> Test Jquery permetant de sélectionner les personnes du système.
 	</p>
 	<p>Exemples:</p>
 	<ul>
 		<li><code>username='olivier'</code> sélection de la personne dont le username est  <code>olivier</code></li>
 		<li><code>username=identifier</code> sélection de la personne dont le username est le contenu de la variable <code>identifier</code></li>
+	</ul>
+</article>
+
+<article>
+	<h3 id='for-each-node'>ForEachNode</h3>
+	<p>Pour chacune des éléments de portfolio répondant aux critères (type de noeud, tag sémantique et test), Karuta exécute les commandes qui se trouvent dans le <code>ForEachNode</code></p>
+	<h4>Champs</h4>
+	<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouvel élément</p>
+	<p>
+		<var>Type de noeud:</var> Liste déroulante des choix possibles.
+	</p>
+	<p>
+		<var>Tag sémantique:</var> Tag sémantique des éléments à sélectionner.
+	</p>
+	<p>
+		<var>Test:</var> Test Jquery permetant de filter les éléments répondant aux deux critères précédent. Les tests ci-dessous peuvent être combinés. Par exemple : .sort().first() retournera le premier élément de la liste triée.
+	</p>
+	<p>Tests prédéfinis:</p>
+	<ul>
+		<li><b>.sort()</b><i></i><b></b> trie la liste des noeuds résultats sur le libellé en ordre croissant<br></li>
+		<li><b>.invsort()</b><b></b> trie la liste des noeuds résultats sur le libellé en ordre décroissant<br></li>
+		<li><b>.filename_not_empty()</b> s'applique aux documents et vérifie qu'il y a bien un fichier<br></li>
+		<li><b>.url_not_empty()</b>&nbsp;s'applique aux urls et vérifie qu'il y a bien un url<br></li>
+		<li><b>.text_not_empty()</b>&nbsp;s'applique aux textes couts et longs et vérifie qu'il y a bien du texte dans la ressource.<br></li>
+	</ul>
+	<p>Exemples de fonctions jQuery:</p>
+	<ul>
+		<li><b>.first()</b> retourne le premier élément de la liste résultat<b></b></li>
+		<li><b>.not(':eq(0)')</b> retourne la liste sauf le premier élément<br></li>
+		<li><b>.last()</b>&nbsp;retourne le dernier élément de la liste résultat</li>
+		<li><b>.has("code:contains('2')") </b>sélectionne les éléments dont le code contient un 2</li>
+		<li><b>.siblings().has("metadata[semantictag*=job-title]")</b> retourne la liste des éléments de même niveau contenant le tag sémantique " job-title "</li>
+		<li><b>.has("metadata-wad[submitted='Y']").last()</b> retourne le dernier élément ayant été soumis<br></li>
+		<li><b>.has("metadata-wad[private='N']").last()</b> retourne le dernier élément qui est visible<br></li>
+		<li><b>.has('asmContext:has("metadata[semantictag*=visibility-cv-short]"):has("code:contains(@1)")')</b> retourne l'élément si il y a un enfant avec le sémantique tag &nbsp;visibility-cv-short et le code contient @1</li><li><b>.sortElements(function(a, b){ return $("code",$("asmResource[xsi_type=Get_Resource]",a)).text() &gt; $("code",$("asmResource[xsi_type=Get_Resource]",b)).text() ? 1 : -1; })</b> trie sur le code du Get_Resource</li>
 	</ul>
 </article>
