@@ -19,7 +19,7 @@ report_fr:
   - title: Commandes
     children:
       - title: "for-each-portfolio"
-        url: #for-each-portfolio
+        url: "#for-each-portfolio"
   - title: Langues
     children:
       - title: "English"
