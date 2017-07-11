@@ -18,3 +18,20 @@ dashboard_fr:
         url: /for-each-line_fr/
       - title: "for-each-portfolio"
         url: /for-each-portfolio_fr/
+  - title: Langues
+    children:
+      - title: "English"
+        url: /dashboard_en/
+
+dashboard_en:
+  - title: Functions
+    children:
+      - title: "for-each-line"
+        url: /for-each-line_en/
+      - title: "for-each-portfolio"
+        url: /for-each-portfolio_en/
+  - title: Languages
+    children:
+      - title: "Français"
+        url: /dashboard_fr/
+        
