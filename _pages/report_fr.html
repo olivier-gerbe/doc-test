@@ -61,21 +61,22 @@ Les commandes disponibles sont :
 	</p>
 	<p>Tests prédéfinis:</p>
 	<ul>
-		<li><b>.sort()</b><i></i><b></b> trie la liste des noeuds résultats sur le libellé en ordre croissant<br></li>
-		<li><b>.invsort()</b><b></b> trie la liste des noeuds résultats sur le libellé en ordre décroissant<br></li>
-		<li><b>.filename_not_empty()</b> s'applique aux documents et vérifie qu'il y a bien un fichier<br></li>
-		<li><b>.url_not_empty()</b>&nbsp;s'applique aux urls et vérifie qu'il y a bien un url<br></li>
-		<li><b>.text_not_empty()</b>&nbsp;s'applique aux textes couts et longs et vérifie qu'il y a bien du texte dans la ressource.<br></li>
+		<li><code>.sort()</code> trie la liste des noeuds résultats sur le libellé en ordre croissant<br></li>
+		<li><code>.invsort()</code> trie la liste des noeuds résultats sur le libellé en ordre décroissant<br></li>
+		<li><code>.filename_not_empty()</code> s'applique aux documents et vérifie qu'il y a bien un fichier<br></li>
+		<li><code>.url_not_empty()</code> s'applique aux urls et vérifie qu'il y a bien un url<br></li>
+		<li><code>.text_not_empty()</code> s'applique aux textes couts et longs et vérifie qu'il y a bien du texte dans la ressource.<br></li>
 	</ul>
 	<p>Exemples de fonctions jQuery:</p>
 	<ul>
-		<li><b>.first()</b> retourne le premier élément de la liste résultat<b></b></li>
-		<li><b>.not(':eq(0)')</b> retourne la liste sauf le premier élément<br></li>
-		<li><b>.last()</b>&nbsp;retourne le dernier élément de la liste résultat</li>
-		<li><b>.has("code:contains('2')") </b>sélectionne les éléments dont le code contient un 2</li>
-		<li><b>.siblings().has("metadata[semantictag*=job-title]")</b> retourne la liste des éléments de même niveau contenant le tag sémantique " job-title "</li>
-		<li><b>.has("metadata-wad[submitted='Y']").last()</b> retourne le dernier élément ayant été soumis<br></li>
-		<li><b>.has("metadata-wad[private='N']").last()</b> retourne le dernier élément qui est visible<br></li>
-		<li><b>.has('asmContext:has("metadata[semantictag*=visibility-cv-short]"):has("code:contains(@1)")')</b> retourne l'élément si il y a un enfant avec le sémantique tag &nbsp;visibility-cv-short et le code contient @1</li><li><b>.sortElements(function(a, b){ return $("code",$("asmResource[xsi_type=Get_Resource]",a)).text() &gt; $("code",$("asmResource[xsi_type=Get_Resource]",b)).text() ? 1 : -1; })</b> trie sur le code du Get_Resource</li>
+		<li><code>.first()</code> retourne le premier élément de la liste résultat<code></code></li>
+		<li><code>.not(':eq(0)')</code> retourne la liste sauf le premier élément<br></li>
+		<li><code>.last()</code>&nbsp;retourne le dernier élément de la liste résultat</li>
+		<li><code>.has("code:contains('2')") </code>sélectionne les éléments dont le code contient un 2</li>
+		<li><code>.siblings().has("metadata[semantictag*=job-title]")</code> retourne la liste des éléments de même niveau contenant le tag sémantique " job-title "</li>
+		<li><code>.has("metadata-wad[submitted='Y']").last()</code> retourne le dernier élément ayant été soumis<br></li>
+		<li><code>.has("metadata-wad[private='N']").last()</code> retourne le dernier élément qui est visible<br></li>
+		<li><code>.has('asmContext:has("metadata[semantictag*=visibility-cv-short]"):has("code:contains(@1)")')</code> retourne l'élément si il y a un enfant avec le sémantique tag &nbsp;visibility-cv-short et le code contient @1</li>
+		<li><code>.sortElements(function(a, b){ return $("code",$("asmResource[xsi_type=Get_Resource]",a)).text() &gt; $("code",$("asmResource[xsi_type=Get_Resource]",b)).text() ? 1 : -1; })</code> trie sur le code du Get_Resource</li>
 	</ul>
 </article>
