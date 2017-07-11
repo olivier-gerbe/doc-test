@@ -1,11 +1,15 @@
 # main links
-main_fr:
+main:
+  - title: "Portfolio"
+    url: /potfolio_fr/
   - title: "Tableau de bord"
     url: /dashboard_fr/
   - title: "Rapport"
     url: /report_fr/
 
 main_en:
+  - title: "Portfolio"
+    url: /potfolio_en/
   - title: "Dashboard"
     url: /dashboard_en/
   - title: "Report"
