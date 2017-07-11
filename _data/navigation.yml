@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Portfolio"
-    url: /potfolio_fr/
+    url: /portfolio_fr/
   - title: "Tableau de bord"
     url: /dashboard_fr/
   - title: "Rapport"
@@ -9,7 +9,7 @@ main:
 
 main_en:
   - title: "Portfolio"
-    url: /potfolio_en/
+    url: /portfolio_en/
   - title: "Dashboard"
     url: /dashboard_en/
   - title: "Report"
@@ -20,6 +20,20 @@ report_fr:
     children:
       - title: "for-each-portfolio"
         url: /for-each-portfolio_fr/
+  - title: Langues
+    children:
+      - title: "English"
+        url: /report_en/
+
+report_en:
+  - title: Functions
+    children:
+      - title: "for-each-portfolio"
+        url: /for-each-portfolio_en/
+  - title: Languages
+    children:
+      - title: "Français"
+        url: /report_fr/
 
 dashboard_fr:
   - title: Commandes
