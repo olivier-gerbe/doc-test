@@ -15,6 +15,7 @@ main_en:
   - title: "Report"
     url: /report_en/
 
+# ====== REPORT_FR ================
 report_fr:
   - title: Commandes
     children:
@@ -22,11 +23,14 @@ report_fr:
         url: /report_fr#for-each-portfolio
       - title: "ForEachPerson"
         url: /report_fr#for-each-person
+      - title: "ForEachNode"
+        url: /report_fr#for-each-node
   - title: Langues
     children:
       - title: "English"
         url: /report_en/
 
+# ====== REPORT_EN ================
 report_en:
   - title: Functions
     children:
@@ -37,6 +41,7 @@ report_en:
       - title: "Français"
         url: /report_fr/
 
+# ====== DASHBOARD_FR =============
 dashboard_fr:
   - title: Commandes
     children:
@@ -49,6 +54,7 @@ dashboard_fr:
       - title: "English"
         url: /dashboard_en/
 
+# ====== DASHBOARD_EN =============
 dashboard_en:
   - title: Functions
     children:
