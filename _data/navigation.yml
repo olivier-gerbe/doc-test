@@ -20,6 +20,8 @@ report_fr:
     children:
       - title: "ForEachPortfolio"
         url: /report_fr#for-each-portfolio
+      - title: "ForEachPerson"
+        url: /report_fr#for-each-person
   - title: Langues
     children:
       - title: "English"

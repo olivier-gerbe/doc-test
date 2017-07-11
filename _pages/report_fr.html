@@ -10,23 +10,37 @@ Les commandes disponibles sont :
 <ul>
 
 	<li><code><a href='#for-each-portfolio'>ForEachPortfolio</a></code></li>
-	<li><code><a href='#for-each-person'>for-each-person</a></code></li>
-	<li><code><a href='#for-each-line'>for-each-line</a></code></li>
-</ul>
+	<li><code><a href='#for-each-person'>ForEachPerson</a></code></li>
+/ul>
 
 
 
 <article>
-<h3 id='for-each-portfolio'>ForEachPortfolio</h3>
-<p>Pour chacun des portfolios répondant au test de la sélection, Karuta exécute les commandes qui se trouvent dans le <code>ForEachPortfolio</code></p>
-<h4>Champs</h4>
-<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouveau portfolio</p>
-<p>
-	<var>Sélection portfolios:</var> Test Jquery permmetant de sélectionner des portfolios parmi ceux visibles par l'usager.
-	<br/>Exemples:
-	<ul>
-		<li><code>code*='2015_work'</code> sélection des portfolios dont le code contient <code>2015_work</code></li>
-		<li><code>code*=portfolio_code</code> sélection des portfolios dont le code contient le contenu de la variable <code>porfolio_code</code></li>
-	</ul>
-</p>
+	<h3 id='for-each-portfolio'>ForEachPortfolio</h3>
+	<p>Pour chacun des portfolios répondant au test de la sélection, Karuta exécute les commandes qui se trouvent dans le <code>ForEachPortfolio</code></p>
+	<h4>Champs</h4>
+	<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouveau portfolio</p>
+	<p>
+		<var>Sélection portfolios:</var> Test Jquery permmetant de sélectionner des portfolios parmi ceux visibles par l'usager.
+		<br/>Exemples:
+		<ul>
+			<li><code>code*='2015_work'</code> sélection des portfolios dont le code contient <code>2015_work</code></li>
+			<li><code>code*=portfolio_code</code> sélection des portfolios dont le code contient le contenu de la variable <code>porfolio_code</code></li>
+		</ul>
+	</p>
+</article>
+
+<article>
+	<h3 id='for-each-person'>ForEachPerson</h3>
+	<p>Pour chacune des personnes répondant au test de la sélection, Karuta exécute les commandes qui se trouvent dans le <code>ForEachPerson</code></p>
+	<h4>Champs</h4>
+	<p><var>Références à initialiser:</var> Liste des variables (séparées par une barre oblique) à réinitialiser pour chaque nouvelle personne</p>
+	<p>
+		<var>Sélection personnes:</var> Test Jquery permmetant de sélectionner les personnes du systèeme.
+		<br/>Exemples:
+		<ul>
+			<li><code>username='olivier'</code> sélection de la personne dont le username est  <code>olivier</code></li>
+			<li><code>username=identifier</code> sélection de la personne dont le username est le contenu de la variable <code>identifier</code></li>
+		</ul>
+	</p>
 </article>
