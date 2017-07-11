@@ -25,6 +25,10 @@ report_fr:
         url: /report_fr#for-each-person
       - title: "ForEachNode"
         url: /report_fr#for-each-node
+  - title: Mise en forme
+    url: /report_fr#css
+  - title: Édition
+    url: /report_fr#edition
   - title: Langues
     children:
       - title: "English"
